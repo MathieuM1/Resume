@@ -262,7 +262,7 @@ header .header-content .header-content-inner p {
 .portfolio-box {
     display: block;
     position: relative;
-    margin: 0 auto;
+    margin: 5% auto;
     max-width: 650px;
 }
 
@@ -513,8 +513,7 @@ body {
 }
 
 .img-responsive{
-  width: 650px;
-  height: 350px;
+  
 }
 
 .icons_for_licenses{
@@ -538,16 +537,17 @@ body {
 }
 
 #services{  
-  background-color: #b0bec5;
+  background-color: #39CCCC;
   background-size: 100% 100%;
   color: black;
 }
 
 #skills{
-  background: url(../images/code.jpg) fixed;
-  background-size: 100% 100%;
-  color: rgb(255,255,255);
-  font-weight: bold;
+    background: url(../images/code.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: rgb(255,255,255);
+    font-weight: bold;
 }
 
 .text-black {
@@ -570,19 +570,20 @@ body {
 .darty {
     background: url(../images/handshake.png) fixed;
     background-size: 100% 100%;
-    color: black;
+    color: white;
+    
 }
 
 .topfun {
     background: url(../images/sport.jpg) fixed;
     background-size: 100% 100%;
-    color: black;    
+    color: white;    
 }
 
 .metro {
     background: url(../images/manager.jpg) fixed;
     background-size: 100% 100%;
-    color: black;
+    color: white;
 }
 
 /* Iphone 6+ */
@@ -600,7 +601,22 @@ and (-webkit-min-device-pixel-ratio: 3) {
 and (min-device-width: 375px)
 and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2) {
-    .body {
+    header {
+        background-attachment: scroll;
+    }
+    #about {
+        background-attachment: scroll; 
+    }
+    #skills {
+        background-attachment: scroll;
+    }
+    .metro {
+        background-attachment: scroll;
+    }
+    .topfun {
+        background-attachment: scroll;
+    }
+    .darty {
         background-attachment: scroll;
     }
 }
@@ -610,7 +626,22 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (min-device-width: 320px)
 and (max-device-width: 568px)
 and (-webkit-min-device-pixel-ratio: 2) {
-    .body {
+    header {
+        background-attachment: scroll;
+    }
+    #about {
+        background-attachment: scroll; 
+    }
+    #skills {
+        background-attachment: scroll;
+    }
+    .metro {
+        background-attachment: scroll;
+    }
+    .topfun {
+        background-attachment: scroll;
+    }
+    .darty {
         background-attachment: scroll;
     }
 }
@@ -620,7 +651,22 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (min-device-width: 320px)
 and (max-device-width: 480px)
 and (-webkit-min-device-pixel-ratio: 2) {
-    .body {
+    header {
+        background-attachment: scroll;
+    }
+    #about {
+        background-attachment: scroll; 
+    }
+    #skills {
+        background-attachment: scroll;
+    }
+    .metro {
+        background-attachment: scroll;
+    }
+    .topfun {
+        background-attachment: scroll;
+    }
+    .darty {
         background-attachment: scroll;
     }
 }
@@ -630,7 +676,22 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (-webkit-min-device-pixel-ratio: 1){
-    .body {
+    header {
+        background-attachment: scroll;
+    }
+    #about {
+        background-attachment: scroll; 
+    }
+    #skills {
+        background-attachment: scroll;
+    }
+    .metro {
+        background-attachment: scroll;
+    }
+    .topfun {
+        background-attachment: scroll;
+    }
+    .darty {
         background-attachment: scroll;
     }
 }
@@ -640,7 +701,22 @@ and (-webkit-min-device-pixel-ratio: 1){
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (-webkit-min-device-pixel-ratio: 2) {
-    body {
+    header {
+        background-attachment: scroll;
+    }
+    #about {
+        background-attachment: scroll; 
+    }
+    #skills {
+        background-attachment: scroll;
+    }
+    .metro {
+        background-attachment: scroll;
+    }
+    .topfun {
+        background-attachment: scroll;
+    }
+    .darty {
         background-attachment: scroll;
     }
 }
@@ -649,7 +725,27 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px)  {
-    .body {
+    header {
         background-attachment: scroll;
     }
+    #about {
+        background-attachment: scroll; 
+    }
+    #skills {
+        background-attachment: scroll;
+    }
+    .metro {
+        background-attachment: scroll;
+    }
+    .topfun {
+        background-attachment: scroll;
+    }
+    .darty {
+        background-attachment: scroll;
+    }
+}
+
+.linkSite {
+    color: white;
+    text-decoration: underline;
 }
