@@ -43,6 +43,10 @@ h6 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
+h2 {
+    font-weight: bold;
+}
+
 p {
     margin-bottom: 20px;
     font-size: 16px;
@@ -180,7 +184,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-  	background: url(https://imagizer.imageshack.us/v2/951x634q90/907/H0jjnq.jpg) fixed;
+  	background: url(../images/bryceCanyon.jpg) fixed;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -513,7 +517,7 @@ body {
 }
 
 .img-responsive{
-  
+    height: 400px;
 }
 
 .icons_for_licenses{
@@ -527,7 +531,7 @@ body {
 }
 
 #about{
-    background: url(../images/graduation.jpg) fixed;
+    background: url(../images/graduation2.jpg) fixed;
     background-repeat:no-repeat;
     background-size: cover;   
 }
@@ -537,9 +541,38 @@ body {
 }
 
 #services{  
-  background-color: #39CCCC;
+  background: linear-gradient( 0deg, #f7fcf0, #e0f3db, #ccebc5, #a8ddb5, #7bccc4, #4eb3d3, #2b8cbe, #08589e );
   background-size: 100% 100%;
   color: black;
+}
+
+.vignette {
+    width: 70%;
+}
+
+
+.linkSiteXs {
+    color: black;
+    text-decoration: underline;
+}
+
+.PartenaireXs {
+    color: black;
+    text-decoration: underline;
+}
+
+.linkSiteLg {
+    color: white;
+    text-decoration: underline;
+}
+
+.PartenaireLg {
+    color: white;
+    text-decoration: underline;
+}
+
+strong {
+    font-weight: normal
 }
 
 #skills{
@@ -568,20 +601,20 @@ body {
 }
 
 .darty {
-    background: url(../images/handshake.png) fixed;
+    background-color: rgba(78,179,211,1);
     background-size: 100% 100%;
     color: white;
     
 }
 
 .topfun {
-    background: url(../images/sport.jpg) fixed;
+    background-color: rgba(43,140,190,1);
     background-size: 100% 100%;
     color: white;    
 }
 
 .metro {
-    background: url(../images/manager.jpg) fixed;
+    background-color: rgba(8,104,172,1);
     background-size: 100% 100%;
     color: white;
 }
@@ -591,8 +624,26 @@ body {
 and (min-device-width: 414px)
 and (max-device-width: 736px)
 and (-webkit-min-device-pixel-ratio: 3) {
-    .body {
-        background-attachment: scroll;
+    header {
+        background-attachment: local;
+    }
+    #about {
+        background-attachment: local; 
+    }
+    #skills {
+        background-attachment: local;
+    }
+    .metro {
+        background-attachment: local;
+    }
+    .topfun {
+        background-attachment: local;
+    }
+    .darty {
+        background-attachment: local;
+    }
+    .contact {
+    font-size: 90%;
     }
 }
 
@@ -602,22 +653,25 @@ and (min-device-width: 375px)
 and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2) {
     header {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     #about {
-        background-attachment: scroll; 
+        background-attachment: local; 
     }
     #skills {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     .metro {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     .topfun {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     .darty {
-        background-attachment: scroll;
+        background-attachment: local;
+    }
+    .contact {
+    font-size: 90%;
     }
 }
 
@@ -627,22 +681,25 @@ and (min-device-width: 320px)
 and (max-device-width: 568px)
 and (-webkit-min-device-pixel-ratio: 2) {
     header {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     #about {
-        background-attachment: scroll; 
+        background-attachment: local; 
     }
     #skills {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     .metro {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     .topfun {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     .darty {
-        background-attachment: scroll;
+        background-attachment: local;
+    }
+    .contact {
+    font-size: 90%;
     }
 }
 
@@ -652,22 +709,25 @@ and (min-device-width: 320px)
 and (max-device-width: 480px)
 and (-webkit-min-device-pixel-ratio: 2) {
     header {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     #about {
-        background-attachment: scroll; 
+        background-attachment: local; 
     }
     #skills {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     .metro {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     .topfun {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     .darty {
-        background-attachment: scroll;
+        background-attachment: local;
+    }
+    .contact {
+    font-size: 90%;
     }
 }
 
@@ -677,22 +737,25 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (-webkit-min-device-pixel-ratio: 1){
     header {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     #about {
-        background-attachment: scroll; 
+        background-attachment: local; 
     }
     #skills {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     .metro {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     .topfun {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     .darty {
-        background-attachment: scroll;
+        background-attachment: local;
+    }
+    .contact {
+    font-size: 90%;
     }
 }
 
@@ -702,22 +765,25 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (-webkit-min-device-pixel-ratio: 2) {
     header {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     #about {
-        background-attachment: scroll; 
+        background-attachment: local; 
     }
     #skills {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     .metro {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     .topfun {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     .darty {
-        background-attachment: scroll;
+        background-attachment: local;
+    }
+    .contact {
+    font-size: 90%;
     }
 }
 
@@ -726,26 +792,24 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)  {
     header {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     #about {
-        background-attachment: scroll; 
+        background-attachment: local; 
     }
     #skills {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     .metro {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     .topfun {
-        background-attachment: scroll;
+        background-attachment: local;
     }
     .darty {
-        background-attachment: scroll;
+        background-attachment: local;
     }
-}
-
-.linkSite {
-    color: white;
-    text-decoration: underline;
+    .contact {
+    font-size: 90%;
+    }
 }
